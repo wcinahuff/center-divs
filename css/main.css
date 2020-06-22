@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #061774;
+  background-color: #fff;
   height: 100%;
 }
 
@@ -107,35 +107,62 @@ body {
   font-size: 1.25em;
   height: 100%;
   box-sizing: border-box;
+  color: darkslategray;
+}
+
+header{
+    font-size: 3em;
+    text-align: left;
+    padding: 0 15%;
+    flex-grow: 1;
+    background-color: lightseagreen;
+}
+
+main{
+    padding: 2% 15%;
+    background-color lightslategray
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: lightseagreen;
+    padding: 0.6% 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: darkslategray;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: center;
-  border-top: #fff solid 0.09rem;
-  border-bottom: #fff solid 0.09rem;
+  justify-content: center; 
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
   line-height: 1.5em;
   font-size: 0.8em;
   text-align: center;
   padding: 2em;
-  background-color: #061774;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-top: darkslategray solid 0.09rem;
+  box-sizing: border-box;
+ 
 }
 
 .div-2{
-    border-left: #fff solid 0.05rem;
-    border-right: #fff solid 0.05rem;
+    border-left: darkslategray solid 0.05rem;
+    border-right: darkslategray solid 0.05rem;
 }
 
 
